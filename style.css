@@ -1,7 +1,3 @@
-/* .header-section{
-    background-color: #0d6efd;
-} */
-
 .header-section__icon-container > img{
     height:20px;
     width:20px;
@@ -15,6 +11,15 @@
 .main-section__top-part{
     -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.89); 
     box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.89);
+}
+
+.top-part__right-icon{
+    border: 10px solid #0d6efd;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    margin: 20px;
+    margin-left: auto;
 }
 
 .top-part__left-icon > img{
@@ -44,4 +49,35 @@
 .bold{
     font-size:18px;
     font-weight: bold;
+}
+
+.map-section{
+    background-image: url(./Icons/bus-app.png);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:55vh;
+    position: relative;
+}
+
+.map-section__icon-container{
+    position: absolute;
+    top: 100px;
+    right: 80px;
+}
+
+.map-section__icon-container > img{
+    height:150px;
+    width:100px;
+}
+
+.map-section__indicator-container{
+    position: absolute;
+    top: 150px;
+    right:40px;
+    background-color: white;
+    border: 5px solid red;
+    height:20px;
+    width:20px;
+    border-radius:50%;
 }
