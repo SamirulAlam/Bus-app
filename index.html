@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="header-section ">
+    <div class="header-section bg-primary">
        <div class="container d-flex justify-content-between">
         <div class="header-section__icon-container p-3">
             <img src="./Icons PNG/Menu-Icon.png" alt="">
@@ -25,49 +25,51 @@
        </div>
     </div>
     <div class="main-section">
-        <div class="main-section__top-part">
-            <div class="top-part__left-icon">
-                <img src="./Icons PNG/Bus-Icon.png" alt="">
+        <div class="container">
+            <div class="main-section__top-part d-flex rounded-3 m-2">
+                <div class="top-part__left-icon bg-light p-2 ps-3 pe-3 pb-1 m-2 rounded-3">
+                    <img src="./Icons PNG/Bus-Icon.png" alt="">
+                </div>
+                <div class="top-part__text-container p-2 m-2">
+                    <p>Please Select Bus Operator</p>
+                </div>
+                <div class="top-part__right-icon">
+                    
+                </div>
             </div>
-            <div class="top-part__text-container">
-                <p>Please Select Bus Operator</p>
+            <div class="main-section__middle-part d-flex rounded-3 m-2">
+                <div class="middle-part__icon-container bg-light p-2 ps-3 pe-3 pb-1 m-2 rounded-3">
+                    <img src="./Icons PNG/User-Icon.png" alt="">
+                </div>
+                <div class="middle-part__text-container p-2 m-2">
+                    <p>Passenger Name</p>
+                </div>
             </div>
-            <div class="top-part__right-icon">
-                
-            </div>
-        </div>
-        <div class="main-section__middle-part">
-            <div class="middle-part__icon-container">
-                <img src="./Icons PNG/User-Icon.png" alt="">
-            </div>
-            <div class="middle-part__text-container">
-                <p>Passenger Name</p>
-            </div>
-        </div>
-        <div class="main-section__bottom-part">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="bottom-part__text-container">
-                            <p>Search</p>
+            <div class="main-section__bottom-part">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3 bg-primary d-flex align-items-center justify-content-between m-2">
+                            <div class="bottom-part__text-container pt-3">
+                                <p>Search</p>
+                            </div>
+                            <div class="bottom-part__icon-container">
+                                <img src="./Icons PNG/Search-Icon.png" alt="">
+                            </div>
                         </div>
-                        <div class="bottom-part__icon-container">
-                            <img src="./Icons PNG/Search-Icon.png" alt="">
+                        <div class="col-3 bg-light d-flex align-items-center justify-content-between m-2">
+                            <div class="bottom-part__text-container pt-3">
+                                <p>Refresh</p>
+                            </div>
+                            <div class="bottom-part__icon-container">
+                                <img src="./Icons PNG/Refresh-Icon.png" alt="">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="bottom-part__text-container">
-                            <p>Refresh</p>
-                        </div>
-                        <div class="bottom-part__icon-container">
-                            <img src="./Icons PNG/Refresh-Icon.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <small>Last Message</small>
-                        <div class="bottom-part__date-container">
-                            <small>03.10</small>
-                            <p>17:15</p>
+                        <div class="col-5 d-flex flex-column align-items-center justify-content-center">
+                            <small class="pt-3">Last Message</small>
+                            <div class="bottom-part__date-container d-flex ">
+                                <p class="text-primary">03.10</p>
+                                <p class="text-primary bold">17:15</p>
+                            </div>
                         </div>
                     </div>
                 </div>

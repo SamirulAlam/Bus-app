@@ -1,6 +1,6 @@
-.header-section{
+/* .header-section{
     background-color: #0d6efd;
-}
+} */
 
 .header-section__icon-container > img{
     height:20px;
@@ -10,4 +10,38 @@
 .login-container__icon-container > img{
     height:20px;
     width:20px;
+}
+
+.main-section__top-part{
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.89); 
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.89);
+}
+
+.top-part__left-icon > img{
+    height:20px;
+    width:20px;
+}
+
+.main-section__middle-part{
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.89); 
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.89);
+}
+
+.middle-part__icon-container > img{
+    height:20px;
+    width:20px;
+}
+
+.bottom-part__icon-container > img{
+    height:20px;
+    width:20px;
+}
+
+.col-3{
+    border-radius:10px;
+}
+
+.bold{
+    font-size:18px;
+    font-weight: bold;
 }
