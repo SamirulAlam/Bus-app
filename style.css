@@ -1,3 +1,5 @@
+/*! ----------------------------- SECTION header ----------------------------- */
+
 .header-section__icon-container > img{
     height:20px;
     width:20px;
@@ -8,9 +10,17 @@
     width:20px;
 }
 
+/* !----------------------------- !SECTION header ---------------------------- */
+
+/* !------------------------------ SECTION main ------------------------------ */
+
+/************
+ * TOP PART *
+ ************/ 
 .main-section__top-part{
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.89); 
-    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.89);
+    -webkit-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.84); 
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.84);
+    border-radius: 10px;
 }
 
 .top-part__right-icon{
@@ -22,20 +32,39 @@
     margin-left: auto;
 }
 
+.top-part__left-icon{
+    background-color: rgb(227, 236, 236);
+    border-radius:10px;
+}
+
 .top-part__left-icon > img{
     height:20px;
     width:20px;
 }
 
+/***************
+ * MIDDLE PART *
+ ***************/
+
 .main-section__middle-part{
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.89); 
-    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.89);
+    -webkit-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.84); 
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.84);
+    border-radius: 10px;
+}
+
+.middle-part__icon-container{
+    background-color: rgb(227, 236, 236);
+    border-radius:10px;
 }
 
 .middle-part__icon-container > img{
     height:20px;
     width:20px;
 }
+
+/***************
+ * BOTTOM PART *
+ ***************/
 
 .bottom-part__icon-container > img{
     height:20px;
@@ -46,10 +75,19 @@
     border-radius:10px;
 }
 
+.bg-light{
+    background-color: rgb(227, 236, 236) !important;
+    border-radius:10px;
+}
+
 .bold{
     font-size:18px;
     font-weight: bold;
 }
+
+/* !------------------------------ !SECTION main ----------------------------- */
+
+/*! ------------------------------- SECTION map ------------------------------ */
 
 .map-section{
     background-image: url(./Icons/bus-app.png);
@@ -68,16 +106,26 @@
 
 .map-section__icon-container > img{
     height:150px;
-    width:100px;
+    width:120px;
+}
+
+.map-section__bus-container > img{
+    position: absolute;
+    top: 45px;
+    right: 45px;
+    height:35px;
+    width:35px;
 }
 
 .map-section__indicator-container{
     position: absolute;
     top: 150px;
-    right:40px;
+    right:50px;
     background-color: white;
     border: 5px solid red;
     height:20px;
     width:20px;
     border-radius:50%;
 }
+
+/*! ------------------------------ !SECTION map ------------------------------ */

@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+
+<!--! --------------------------- SECTION header ---------------------------- -->
+
     <div class="header-section bg-primary">
        <div class="container d-flex justify-content-between">
         <div class="header-section__icon-container p-3">
@@ -24,40 +27,60 @@
         </div>
        </div>
     </div>
+
+<!--! --------------------------- !SECTION header --------------------------- -->
+
+<!--! ---------------------------- SECTION main ----------------------------- -->
+
     <div class="main-section">
         <div class="container">
-            <div class="main-section__top-part d-flex rounded-3 m-2">
-                <div class="top-part__left-icon bg-light p-2 ps-3 pe-3 pb-1 m-2 rounded-3">
+
+<!-- ----------------------------------------------------------------------- -->
+<!--                                top part                                 -->
+<!-- ----------------------------------------------------------------------- -->
+
+            <div class="main-section__top-part d-flex m-2">
+                <div class="top-part__left-icon p-2 ps-3 pe-3 pb-1 m-2">
                     <img src="./Icons/Bus-Icon.png" alt="">
                 </div>
-                <div class="top-part__text-container text-muted p-2 m-2">
+                <div class="top-part__text-container text-muted p-2 m-2 ps-0">
                     <p>Please Select Bus Operator</p>
                 </div>
                 <div class="top-part__right-icon">
                     
                 </div>
             </div>
-            <div class="main-section__middle-part d-flex rounded-3 m-2">
-                <div class="middle-part__icon-container bg-light p-2 ps-3 pe-3 pb-1 m-2 rounded-3">
+
+<!-- ----------------------------------------------------------------------- -->
+<!--                               middle part                               -->
+<!-- ----------------------------------------------------------------------- -->
+
+            <div class="main-section__middle-part d-flex m-2">
+                <div class="middle-part__icon-container p-2 ps-3 pe-3 pb-1 m-2">
                     <img src="./Icons/User-Icon.png" alt="">
                 </div>
-                <div class="middle-part__text-container text-muted p-2 m-2">
+                <div class="middle-part__text-container text-muted p-2 m-2 ps-0">
                     <p>Passenger Name</p>
                 </div>
             </div>
+
+<!-- ----------------------------------------------------------------------- -->
+<!--                               bottom part                               -->
+<!-- ----------------------------------------------------------------------- -->
+
             <div class="main-section__bottom-part">
                 <div class="container">
                     <div class="row">
                         <div class="col-3 bg-primary d-flex align-items-center justify-content-between m-2">
-                            <div class="bottom-part__text-container pt-3">
+                            <div class="bottom-part__text-container pt-3 me-2 text-white">
                                 <p>Search</p>
                             </div>
                             <div class="bottom-part__icon-container">
                                 <img src="./Icons/Search-Icon.png" alt="">
                             </div>
                         </div>
-                        <div class="col-3 bg-light d-flex align-items-center justify-content-between m-2">
-                            <div class="bottom-part__text-container pt-3">
+                        <div class="col-4 bg-light d-flex align-items-center justify-content-between m-2 me-0">
+                            <div class="bottom-part__text-container pt-3 text-primary">
                                 <p>Refresh</p>
                             </div>
                             <div class="bottom-part__icon-container">
@@ -76,14 +99,24 @@
             </div>
         </div>
     </div>
+
+<!--! ---------------------------- !SECTION main ---------------------------- -->
+
+<!--! ----------------------------- SECTION map ----------------------------- -->
+
     <div class="map-section">
             <div class="map-section__icon-container">
                 <img src="./Icons/bus-app_location.png" alt="">
+                <div class="map-section__bus-container">
+                    <img class="bus" src="./Icons/white-bus.png" alt="">
+                </div>
                 <div class="map-section__indicator-container">
             
                 </div>
             </div>
         </div>
-        
+       
+<!--! ---------------------------- !SECTION map ----------------------------- -->
+
 </body>
 </html>
